@@ -1,0 +1,6 @@
+﻿  draw.cpp
+C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\draw.cpp(18,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\draw.cpp(21,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  main.cpp
+  Generating Code...
+  game.vcxproj -> C:\Users\Teodor Madjarov\source\repos\atomscape\Game\x64\Debug\game.exe
