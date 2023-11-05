@@ -1,5 +1,16 @@
 ﻿  draw.cpp
-C:\Users\User\Desktop\atomscape\Game\game\draw.cpp(25,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\User\Desktop\atomscape\Game\game\draw.cpp(28,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\User\Desktop\atomscape\Game\game\draw.cpp(36,26): warning C4305: '+=': truncation from 'double' to 'float'
-  game.vcxproj -> C:\Users\User\Desktop\atomscape\Game\x64\Debug\game.exe
+C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\draw.cpp(25,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\draw.cpp(28,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\draw.cpp(36,26): warning C4305: '+=': truncation from 'double' to 'float'
+  main.cpp
+  init.cpp
+C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\init.cpp(7,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+  update.cpp
+C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\update.cpp(60,85): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\update.cpp(65,34): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\update.cpp(68,81): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\update.cpp(96,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\update.cpp(106,96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\update.cpp(106,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  game.vcxproj -> C:\Users\Teodor Madjarov\source\repos\atomscape\Game\x64\Debug\game.exe
