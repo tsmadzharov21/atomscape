@@ -9,13 +9,20 @@ void DrawGame() {
     {
         if (!isPelletEaten[i])
         {
-            DrawRectangleRec(pellets[i], YELLOW);
+            if (i == 9)
+            {
+                DrawRectangleRec(pellets[i], BLUE);
+            }
+            else
+            {
+                DrawRectangleRec(pellets[i], YELLOW);
+            }
         }
     }
 
     for (size_t i = 0; i < enemyPositions.size(); i++)
     {
-        DrawCircleV(enemyPositions[i], gridSize / 2, RED);
+            DrawCircleV(enemyPositions[i], enemyGridSize / 2, RED);
     }
 
     DrawCircleV(atomPosition, gridSize / 2, YELLOW);
@@ -25,6 +32,8 @@ void DrawGame() {
     {
         DrawText("Level completed!", screenWidth / 2 - MeasureText("Level completed!", 30) / 2, screenHeight / 2 - 15, 30, GREEN);
         DrawText("Press Enter to Start Next Level", screenWidth / 2 - 200, screenHeight / 2 + 50, 20, DARKGRAY);
+        
+        atomSpeed += 0.03;
     }
     else if (isGameOver)
     {

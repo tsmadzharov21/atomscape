@@ -3,8 +3,9 @@
 int screenWidth = 1280;
 int screenHeight = 720;
 int gridSize = 40;
+int enemyGridSize=40;
 float atomSpeed = 0.07;
-float enemySpeed = atomSpeed / 5;
+float enemySpeed = atomSpeed/5;
 int level = 0;
 int maxLevel = 5;
 

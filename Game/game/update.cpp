@@ -55,9 +55,21 @@ void updatePlayer() {
 
     for (size_t i = 0; i < pellets.size(); i++)
     {
+        if (i == 9)
+        {
+            if (!isPelletEaten[i] && CheckCollisionCircleRec(atomPosition, gridSize / 2, pellets[i]))
+            {
+
+                isPelletEaten[i] = true;
+                enemyGridSize += 20;
+                atomSpeed += 0.03;
+            }
+        }
         if (!isPelletEaten[i] && CheckCollisionCircleRec(atomPosition, gridSize / 2, pellets[i]))
         {
+
             isPelletEaten[i] = true;
+            
         }
     }
 
@@ -85,13 +97,13 @@ void updateEnemies() {
 
         if (length > 0)
         {
-            direction.x /= length;
-            direction.y /= length;
+                direction.x /= length;
+                direction.y /= length;
 
-            enemyPositions[i].x += direction.x * enemySpeed;
-            enemyPositions[i].y += direction.y * enemySpeed;
+                enemyPositions[i].x += direction.x * enemySpeed;
+                enemyPositions[i].y += direction.y * enemySpeed;
         }
-        if (CheckCollisionCircles(atomPosition, gridSize / 2, enemyPositions[i], gridSize / 2))
+        if (CheckCollisionCircles(atomPosition, gridSize / 2, enemyPositions[i], enemyGridSize / 2))
         {
             isGameOver = true;
         }

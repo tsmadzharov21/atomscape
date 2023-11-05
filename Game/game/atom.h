@@ -6,10 +6,12 @@
 extern int screenWidth;
 extern int screenHeight;
 extern int gridSize;
+extern int enemyGridSize;
 extern float atomSpeed;
 extern float enemySpeed;
 extern int level;
 extern int maxLevel;
+
 
 extern Vector2 atomPosition;
 extern std::vector<Vector2> enemyPositions;
