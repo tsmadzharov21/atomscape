@@ -9,7 +9,6 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9328,1)
 C:\Users\teoma\Desktop\vckpg\installed\x64-windows\include\raylib.h(982,12): message : see declaration of 'ShowCursor'
   init.cpp
 C:\Users\teoma\Documents\GitHub\atomscape\Game\game\init.cpp(7,17): warning C4305: 'initializing': truncation from 'double' to 'float'
-  music.cpp
   update.cpp
 C:\Users\teoma\Documents\GitHub\atomscape\Game\game\update.cpp(60,85): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\teoma\Documents\GitHub\atomscape\Game\game\update.cpp(65,34): warning C4305: '+=': truncation from 'double' to 'float'
