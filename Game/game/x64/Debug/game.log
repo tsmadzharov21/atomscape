@@ -1,16 +1,20 @@
 ﻿  draw.cpp
-C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\draw.cpp(25,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\draw.cpp(28,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\draw.cpp(36,26): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\teoma\Documents\GitHub\atomscape\Game\game\draw.cpp(25,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\teoma\Documents\GitHub\atomscape\Game\game\draw.cpp(28,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\teoma\Documents\GitHub\atomscape\Game\game\draw.cpp(36,26): warning C4305: '+=': truncation from 'double' to 'float'
   main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(4710,1): error C2733: 'CloseWindow': you cannot overload a function with 'extern "C"' linkage
+C:\Users\teoma\Desktop\vckpg\installed\x64-windows\include\raylib.h(929,12): message : see declaration of 'CloseWindow'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9328,1): error C2733: 'ShowCursor': you cannot overload a function with 'extern "C"' linkage
+C:\Users\teoma\Desktop\vckpg\installed\x64-windows\include\raylib.h(982,12): message : see declaration of 'ShowCursor'
   init.cpp
-C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\init.cpp(7,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\teoma\Documents\GitHub\atomscape\Game\game\init.cpp(7,17): warning C4305: 'initializing': truncation from 'double' to 'float'
+  music.cpp
   update.cpp
-C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\update.cpp(60,85): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\update.cpp(65,34): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\update.cpp(68,81): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\update.cpp(96,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\update.cpp(106,96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Teodor Madjarov\source\repos\atomscape\Game\game\update.cpp(106,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\teoma\Documents\GitHub\atomscape\Game\game\update.cpp(60,85): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\teoma\Documents\GitHub\atomscape\Game\game\update.cpp(65,34): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\teoma\Documents\GitHub\atomscape\Game\game\update.cpp(68,81): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\teoma\Documents\GitHub\atomscape\Game\game\update.cpp(96,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\teoma\Documents\GitHub\atomscape\Game\game\update.cpp(106,96): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\teoma\Documents\GitHub\atomscape\Game\game\update.cpp(106,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating Code...
-  game.vcxproj -> C:\Users\Teodor Madjarov\source\repos\atomscape\Game\x64\Debug\game.exe

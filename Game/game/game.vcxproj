@@ -130,6 +130,7 @@
     <ClCompile Include="draw.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="init.cpp" />
+    <ClCompile Include="music.cpp" />
     <ClCompile Include="update.cpp" />
   </ItemGroup>
   <ItemGroup>
