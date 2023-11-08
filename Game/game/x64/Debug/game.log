@@ -4,9 +4,9 @@ C:\Users\teoma\Documents\GitHub\atomscape\Game\game\draw.cpp(28,40): warning C42
 C:\Users\teoma\Documents\GitHub\atomscape\Game\game\draw.cpp(36,26): warning C4305: '+=': truncation from 'double' to 'float'
   main.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(4710,1): error C2733: 'CloseWindow': you cannot overload a function with 'extern "C"' linkage
-C:\Users\teoma\Desktop\vckpg\installed\x64-windows\include\raylib.h(929,12): message : see declaration of 'CloseWindow'
+C:\Users\teoma\Documents\GitHub\atomscape\Game\raylib\include\raylib.h(912,12): message : see declaration of 'CloseWindow'
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9328,1): error C2733: 'ShowCursor': you cannot overload a function with 'extern "C"' linkage
-C:\Users\teoma\Desktop\vckpg\installed\x64-windows\include\raylib.h(982,12): message : see declaration of 'ShowCursor'
+C:\Users\teoma\Documents\GitHub\atomscape\Game\raylib\include\raylib.h(962,12): message : see declaration of 'ShowCursor'
   init.cpp
 C:\Users\teoma\Documents\GitHub\atomscape\Game\game\init.cpp(7,17): warning C4305: 'initializing': truncation from 'double' to 'float'
   update.cpp
