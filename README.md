@@ -2,6 +2,7 @@
 
 Welcome to AtomScape, an exciting C++ game where molecules strive to eat atoms while avoiding evil viruses! 🦠💥
 
+
 ## Table of Contents
 - [Game Overview](#game-overview)
 - [Features](#features)
@@ -71,3 +72,5 @@ Meet the awesome developers behind AtomScape:
 
  Ivan Tsvyatkov
  Role: Front-end Developer
+
+ ![Metrics](https://metrics.lecoq.io/madushadhanushka?template=classic&base.header=0&gists=1&lines=1&config.timezone=America%2FToronto)
