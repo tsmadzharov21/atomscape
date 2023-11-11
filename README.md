@@ -9,8 +9,6 @@ Welcome to AtomScape, an exciting C++ game where molecules strive to eat atoms w
 - [Installation](#installation)
 - [Dependencies](#dependencies)
 - [Developers](#developers)
-- [Contribute](#contribute)
-- [License](#license)
 
 ## Game Overview
 
@@ -58,17 +56,17 @@ In AtomScape, players control a molecule that needs to consume atoms for surviva
   C++ compiler
   Raylib library (included in the repository)
 
-##Developers
+## Developers
 
 Meet the awesome developers behind Molecule Muncher:
 
-#Teodor Madjarov
+# Teodor Madjarov
 Role: Scrum Trainer
 
-#Apostol Kupenov
+#  Apostol Kupenov
 Role: Back-end Developer
 
-#Lubo Dimov
+# Lubo Dimov
 Role: Back-end Developer
 
 #Ivan Tsvyatkov
