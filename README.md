@@ -61,13 +61,13 @@ In AtomScape, players control a molecule that needs to consume atoms for surviva
 Meet the awesome developers behind Molecule Muncher:
 
 # Teodor Madjarov
-Role: Scrum Trainer
+  Role: Scrum Trainer
 
 #  Apostol Kupenov
-Role: Back-end Developer
+   Role: Back-end Developer
 
 # Lubo Dimov
-Role: Back-end Developer
+  Role: Back-end Developer
 
-#Ivan Tsvyatkov
-Role: Front-end Developer
+# Ivan Tsvyatkov
+  Role: Front-end Developer
