@@ -27,6 +27,9 @@
     <ClCompile Include="draw.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="startmenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="atom.h">

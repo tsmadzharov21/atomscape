@@ -108,4 +108,5 @@ void updateEnemies() {
             isGameOver = true;
         }
     }
+
 }
