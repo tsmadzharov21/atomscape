@@ -19,9 +19,9 @@ extern std::vector<bool> isPelletEaten;
 extern bool isGameOver;
 extern bool isLevelCompleted;
 
-extern Rectangle player, enemy, pallets;
 
-extern Texture2D bakcground;
+
+extern Texture2D background;
 extern Texture2D playerTexture;
 extern Texture2D enemyTexture;
 extern Texture2D palletsTexture;

@@ -4,6 +4,7 @@ void DrawGame() {
     // Implementation of DrawGame
     BeginDrawing();
     ClearBackground(BLACK);
+    DrawTextureEx(background, { 0,0 }, 0, 0.93567, WHITE);
 
     for (size_t i = 0; i < pellets.size(); i++)
     {
@@ -11,28 +12,28 @@ void DrawGame() {
         {
             if (i == 9)
             {
-                DrawRectangleRec(pellets[i], BLUE);
+                DrawTextureEx(palletsTexture, { pellets[i].x,pellets[i].y }, 0, 0.1, BLUE);
             }
             else
             {
-                DrawRectangleRec(pellets[i], YELLOW);
+                DrawTextureEx(palletsTexture, { pellets[i].x,pellets[i].y }, 0, 0.1, WHITE);
             }
         }
     }
 
     for (size_t i = 0; i < enemyPositions.size(); i++)
     {
-            DrawCircleV(enemyPositions[i], enemyGridSize / 2, RED);
+        DrawTextureEx(enemyTexture,enemyPositions[i], 0,0.004*enemyGridSize, WHITE);
     }
 
-    DrawCircleV(atomPosition, gridSize / 2, YELLOW);
+    DrawTextureEx(playerTexture, atomPosition, 0, 0.08, WHITE);
     //DrawCircle(atomPosition.x + gridSize / 4, atomPosition.y - gridSize / 4, 5, BLACK);
 
     if (isLevelCompleted)
     {
         DrawText("Level completed!", screenWidth / 2 - MeasureText("Level completed!", 30) / 2, screenHeight / 2 - 15, 30, GREEN);
         DrawText("Press Enter to Start Next Level", screenWidth / 2 - 200, screenHeight / 2 + 50, 20, DARKGRAY);
-        
+
         atomSpeed += 0.03;
     }
     else if (isGameOver)
