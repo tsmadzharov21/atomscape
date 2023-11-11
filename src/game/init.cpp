@@ -16,9 +16,27 @@ std::vector<bool> isPelletEaten;
 bool isGameOver;
 bool isLevelCompleted;
 
-void InitGame() {
+Rectangle player, enemy, pallets;
+
+Texture2D bakcground;
+Texture2D playerTexture;
+Texture2D enemyTexture;
+Texture2D palletsTexture;
+
+
+void Init() {
 	// Implementation of InitGame
 	InitWindow(screenWidth, screenHeight, "Atom Lite");
+
+    playerTexture = LoadTexture("../../../assets/images/molecule_player.png");
+
+    player.width = gridSize;
+    player.height = gridSize;
+    enemy.width = enemyGridSize;
+    enemy.height = enemyGridSize;
+    pallets.width = gridSize;
+    pallets.height = gridSize;
+
 	atomPosition = { (float)gridSize, (float)gridSize };
 	enemyPositions.clear();
 	pellets.clear();

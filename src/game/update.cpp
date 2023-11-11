@@ -2,25 +2,42 @@
 void updatePlayer();
 void updateEnemies();
 
+
+void RestartGame(int lvl)
+{
+    isGameOver = false;
+    isLevelCompleted = false;
+    level = lvl;
+    atomPosition = { (float)gridSize, (float)gridSize };
+    enemyPositions.clear();
+    pellets.clear();
+    isPelletEaten.clear();
+    enemyPositions.push_back({ (float)(screenWidth - gridSize), (float)(screenHeight - gridSize) });
+    for (int i = 0; i < level; i++)
+    {
+        enemyPositions.push_back({ (float)(GetRandomValue(gridSize, screenWidth - gridSize)), (float)(GetRandomValue(gridSize, screenHeight - gridSize)) });
+    }
+
+    for (int i = 0; i < 10; i++)
+    {
+        pellets.push_back({ (float)(GetRandomValue(0, (screenWidth / gridSize) - 1) * gridSize), (float)(GetRandomValue(0, (screenHeight / gridSize) - 1) * gridSize), (float)gridSize, (float)gridSize });
+        isPelletEaten.push_back(false);
+    }
+}
+
+
 void UpdateGame()
 {
     // Implementation of UpdateGame
     if (isGameOver) {
         return;
     }
-    if (IsKeyPressed(KEY_ENTER))
-    {
-        InitGame();
-        isGameOver = false;
-        isLevelCompleted = false;
-        level = 1;
-    }
     if (isLevelCompleted)
     {
         if (level < maxLevel)
         {
             level++;
-            InitGame();
+            RestartGame(level);
             isLevelCompleted = false;
         }
         else

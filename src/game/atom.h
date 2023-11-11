@@ -1,7 +1,7 @@
 #pragma once
 #include "raylib.h"
 #include <vector>
-
+#include <iostream>
 extern int screenWidth;
 extern int screenHeight;
 extern int gridSize;
@@ -19,7 +19,15 @@ extern std::vector<bool> isPelletEaten;
 extern bool isGameOver;
 extern bool isLevelCompleted;
 
-void InitGame();
+extern Rectangle player, enemy, pallets;
+
+extern Texture2D bakcground;
+extern Texture2D playerTexture;
+extern Texture2D enemyTexture;
+extern Texture2D palletsTexture;
+
+void Init();
 void UpdateGame();
 void DrawGame();
-void RestartGame();
+void RestartGame(int lvl = 0);
+void mainMenu();
