@@ -25,7 +25,7 @@ Texture2D palletsTexture;
 
 void Init() {
 	// Implementation of InitGame
-	InitWindow(screenWidth, screenHeight, "Atom Lite");
+	InitWindow(screenWidth, screenHeight, "AtomScape");
 
     playerTexture = LoadTexture("../../assets/images/molecule_player.png");
     background = LoadTexture("../../assets/images/game_background.png");
