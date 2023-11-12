@@ -55,8 +55,8 @@ In AtomScape, players control a molecule that needs to consume atoms for surviva
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/molecule-muncher.git
-   cd molecule-muncher
+   git clone https://github.com/tsmadzharov21/attomscape.git
+   cd atom-scape
 2. Compile and run the game:
 
    bash
