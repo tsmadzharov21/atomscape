@@ -4,10 +4,10 @@ int screenWidth = 1280;
 int screenHeight = 720;
 int gridSize = 40;
 int enemyGridSize=60;
-float atomSpeed = 0.05;
-float enemySpeed = atomSpeed/5;
+float atomSpeed = 0.07;
+float enemySpeed = 0.07;
 int level = 0;
-int maxLevel = 5;
+int maxLevel = 15;
 
 Vector2 atomPosition;
 std::vector<Vector2> enemyPositions;

@@ -23,6 +23,8 @@ void RestartGame(int lvl)
         pellets.push_back({ (float)(GetRandomValue(0, (screenWidth / gridSize) - 1) * gridSize), (float)(GetRandomValue(0, (screenHeight / gridSize) - 1) * gridSize), (float)gridSize, (float)gridSize });
         isPelletEaten.push_back(false);
     }
+    enemySpeed = 0.07;
+    atomSpeed = 0.07;
 }
 
 
@@ -78,8 +80,7 @@ void updatePlayer() {
             {
 
                 isPelletEaten[i] = true;
-                enemyGridSize += 20;
-                atomSpeed += 0.03;
+                enemySpeed -= 0.01;
             }
         }
         if (!isPelletEaten[i] && CheckCollisionCircleRec({ atomPosition.x + gridSize / 2, atomPosition.y + gridSize / 2 }, gridSize / 2, pellets[i]))
