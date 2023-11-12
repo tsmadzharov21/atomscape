@@ -32,7 +32,7 @@ void Init() {
     background = LoadTexture("../../assets/images/maingame_bg.png");
     enemyTexture = LoadTexture("../../assets/images/bacteria_enemy.png");
     palletsTexture = LoadTexture("../../assets/images/atom_target.png");
-    menuTexture = LoadTexture("...");
+    menuTexture = LoadTexture("../../assets/images/menubg.png");
 
 
 

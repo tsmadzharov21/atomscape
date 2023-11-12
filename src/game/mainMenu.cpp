@@ -28,11 +28,11 @@ void mainMenu() {
         }
 
         BeginDrawing();
-        ClearBackground(RAYWHITE);
+        DrawTextureEx(menuTexture, { 0,0 }, 0, 0.69, WHITE);
 
         // Draw the lobby options
-        DrawText("Play Game", screenWidth / 2 - 100, screenHeight / 2 - 30, 30, (selectedOption == 0) ? RED : DARKGRAY);
-        DrawText("Quit", screenWidth / 2 - 100, screenHeight / 2 + 30, 30, (selectedOption == 1) ? RED : DARKGRAY);
+        DrawText("Play Game", screenWidth / 2 - 100, screenHeight / 2 - 30, 30, (selectedOption == 0) ? GREEN : WHITE);
+        DrawText("Quit", screenWidth / 2 - 100, screenHeight / 2 + 30, 30, (selectedOption == 1) ? GREEN : WHITE);
 
         EndDrawing();
     }

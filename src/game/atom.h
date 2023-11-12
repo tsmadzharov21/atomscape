@@ -25,6 +25,7 @@ extern Texture2D background;
 extern Texture2D playerTexture;
 extern Texture2D enemyTexture;
 extern Texture2D palletsTexture;
+extern Texture2D menuTexture;
 
 void Init();
 void UpdateGame();

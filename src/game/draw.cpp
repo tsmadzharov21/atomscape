@@ -38,8 +38,8 @@ void DrawGame() {
     }
     else if (isGameOver)
     {
-        DrawText("Game Over!", screenWidth / 2 - 100, screenHeight / 2 - 50, 30, RED);
-        DrawText("Press Enter to Restart", screenWidth / 2 - 150, screenHeight / 2 + 50, 20, DARKGRAY);
+        DrawText("Game Over!", screenWidth / 2 - 100, screenHeight / 2 - 50, 30, WHITE);
+        DrawText("Press Enter to Restart", screenWidth / 2 - 150, screenHeight / 2 + 50, 20, WHITE);
     }
 
     EndDrawing();
