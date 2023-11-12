@@ -6,6 +6,7 @@ Welcome to AtomScape, an exciting C++ game where molecules strive to eat atoms w
 ## Table of Contents
 - [Game Overview](#game-overview)
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [How to Play](#how-to-play)
 - [Installation](#installation)
 - [Dependencies](#dependencies)
@@ -24,6 +25,18 @@ In AtomScape, players control a molecule that needs to consume atoms for surviva
 🎉 **Power-ups:** Collect power-ups to enhance your molecule's abilities or gain temporary advantages.
 
 🚀 **Levels:** Progress through increasingly difficult levels, each with its own unique challenges and obstacles.
+
+## Screenshots
+
+<img
+  src="..\..\assets\images\screenshots\screenshot1"
+  alt="SS1"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+  <img
+  src="..\..\assets\images\screenshots\screenshot1"
+  alt="SS2"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 ## How to Play
 
@@ -73,4 +86,3 @@ Meet the awesome developers behind AtomScape:
  Ivan Tsvyatkov
  Role: Front-end Developer
 
- ![Metrics](https://metrics.lecoq.io/madushadhanushka?template=classic&base.header=0&gists=1&lines=1&config.timezone=America%2FToronto)
