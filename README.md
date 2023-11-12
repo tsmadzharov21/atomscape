@@ -6,6 +6,7 @@ Welcome to AtomScape, an exciting C++ game where molecules strive to eat atoms w
 ## Table of Contents
 - [Game Overview](#game-overview)
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [How to Play](#how-to-play)
 - [Installation](#installation)
 - [Dependencies](#dependencies)
@@ -25,6 +26,18 @@ In AtomScape, players control a molecule that needs to consume atoms for surviva
 
 🚀 **Levels:** Progress through increasingly difficult levels, each with its own unique challenges and obstacles.
 
+## Screenshots
+
+<img
+  src="..\..\assets\images\screenshots\screenshot1"
+  alt="SS1"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
+  <img
+  src="..\..\assets\images\screenshots\screenshot1"
+  alt="SS2"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
+
 ## How to Play
 
 1. **Controls:**
@@ -42,8 +55,8 @@ In AtomScape, players control a molecule that needs to consume atoms for surviva
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/molecule-muncher.git
-   cd molecule-muncher
+   git clone https://github.com/tsmadzharov21/attomscape.git
+   cd atom-scape
 2. Compile and run the game:
 
    bash
@@ -73,4 +86,3 @@ Meet the awesome developers behind AtomScape:
  Ivan Tsvyatkov
  Role: Front-end Developer
 
- ![Metrics](https://metrics.lecoq.io/madushadhanushka?template=classic&base.header=0&gists=1&lines=1&config.timezone=America%2FToronto)
