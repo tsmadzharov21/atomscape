@@ -23,7 +23,7 @@ void RestartGame(int lvl)
         pellets.push_back({ (float)(GetRandomValue(0, (screenWidth / gridSize) - 1) * gridSize), (float)(GetRandomValue(0, (screenHeight / gridSize) - 1) * gridSize), (float)gridSize, (float)gridSize });
         isPelletEaten.push_back(false);
     }
-    enemySpeed = 0.07;
+    enemySpeed = 0.05;
     atomSpeed = 0.07;
 }
 

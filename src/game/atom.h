@@ -32,4 +32,3 @@ void UpdateGame();
 void DrawGame();
 void RestartGame(int lvl = 0);
 void mainMenu();
-void storyline();
