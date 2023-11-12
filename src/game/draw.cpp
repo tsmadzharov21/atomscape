@@ -12,11 +12,11 @@ void DrawGame() {
         {
             if (i == 9)
             {
-                DrawTextureEx(palletsTexture, { pellets[i].x,pellets[i].y }, 0, 0.1, BLUE);
+                DrawTextureEx(palletsTexture, { pellets[i].x,pellets[i].y }, 0, 0.15, BLUE);
             }
             else
             {
-                DrawTextureEx(palletsTexture, { pellets[i].x,pellets[i].y }, 0, 0.1, WHITE);
+                DrawTextureEx(palletsTexture, { pellets[i].x,pellets[i].y }, 0, 0.15, WHITE);
             }
         }
     }
@@ -26,7 +26,7 @@ void DrawGame() {
         DrawTextureEx(enemyTexture,enemyPositions[i], 0,0.004*enemyGridSize, WHITE);
     }
 
-    DrawTextureEx(playerTexture, atomPosition, 0, 0.08, WHITE);
+    DrawTextureEx(playerTexture, atomPosition, 0, 0.15, WHITE);
     //DrawCircle(atomPosition.x + gridSize / 4, atomPosition.y - gridSize / 4, 5, BLACK);
 
     if (isLevelCompleted)

@@ -3,8 +3,8 @@
 int screenWidth = 1280;
 int screenHeight = 720;
 int gridSize = 40;
-int enemyGridSize=40;
-float atomSpeed = 0.07;
+int enemyGridSize=60;
+float atomSpeed = 0.05;
 float enemySpeed = atomSpeed/5;
 int level = 0;
 int maxLevel = 5;
@@ -21,6 +21,7 @@ Texture2D background;
 Texture2D playerTexture;
 Texture2D enemyTexture;
 Texture2D palletsTexture;
+Texture2D menuTexture;
 
 
 void Init() {
@@ -28,10 +29,10 @@ void Init() {
 	InitWindow(screenWidth, screenHeight, "AtomScape");
 
     playerTexture = LoadTexture("../../assets/images/molecule_player.png");
-    background = LoadTexture("../../assets/images/game_background.png");
+    background = LoadTexture("../../assets/images/maingame_bg.png");
     enemyTexture = LoadTexture("../../assets/images/bacteria_enemy.png");
     palletsTexture = LoadTexture("../../assets/images/atom_target.png");
-
+    menuTexture = LoadTexture("...");
 
 
 

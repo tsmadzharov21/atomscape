@@ -88,6 +88,7 @@ void updatePlayer() {
             isPelletEaten[i] = true;
 
         }
+
     }
 
     bool allPelletsEaten = true;
