@@ -56,13 +56,13 @@ In AtomScape, players control a molecule that needs to consume atoms for surviva
 1. Clone the repository:
    ```bash
    git clone https://github.com/tsmadzharov21/attomscape.git
-   cd atom-scape
+   cd atomscape
 2. Compile and run the game:
 
    bash
    Copy code
-   g++ -o molecule_muncher main.cpp game.cpp
-   ./molecule_muncher
+   g++ -o atomscape main.cpp game.cpp
+   ./atomscape
    Enjoy the game!
 
 ## Dependencies
